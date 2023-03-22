@@ -33,7 +33,7 @@ function App() {
     <>
     <h1 style={{textAlign:"center"}}>Posts</h1>
     <Posts posts={currentPosts}/>
-    <Pagination postsPerPage={postsPerPage} totalPosts={getPosts.length} paginate={paginate} />
+    <Pagination postsPerPage={postsPerPage} totalPosts={getPosts.length} paginate={paginate} currentPage={currentPage} />
     </>
   );
 }
